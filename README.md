@@ -39,9 +39,12 @@ get_reg()：输出正则化强度
 运用模型进行预测调用predict()函数
 
 ## 2、训练和测试步骤
-训练集和测试集已经处理为csv格式，分别为mnist_train.csv和mnist_test.csv
-**(1）训练模型**
+训练集和测试集已经处理为csv格式，分别为mnist_train.csv和mnist_test.csv,训练好的模型保存为model.pkl
+
+**（1）训练模型**
+
 运行Train.py,其中导入数据，设定参数，训练模型，可视化训练的loss和accuracy曲线，参数查找学习率，隐藏层大小，正则化强度，保存模型代码
 
 **（2）读取已训练的模型并在测试集测试模型**
+
 运行Test.py
